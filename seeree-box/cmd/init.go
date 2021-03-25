@@ -164,7 +164,6 @@ func getSeasonDetails(season string, showID string) tv.TvSeriesSeasonDetails {
 	var getSeasonDetails string = getRequestToTMDB(EXTENDED_URL)
 	var tvSeasonDetails tv.TvSeriesSeasonDetails
 	json.Unmarshal([]byte(getSeasonDetails), &tvSeasonDetails)
-	fmt.Println(tvSeasonDetails)
 	return tvSeasonDetails
 }
 
