@@ -2,6 +2,8 @@
 
 The GO CLI toolkit is built using [Cobra](https://github.com/spf13/cobra) library and integrates the API from the [The Movie DataBase (TMDB)](https://www.themoviedb.org/) and hence the credit goes to **Cobra** and **TMDB** for this tool.  
 
+> **IMPROTANT :** To use this CLI tool, create an account on [TMDB](https://www.themoviedb.org/) and request an `api-key` from your account. Once you get an `api-key`, use it as a value of the global variable `TMDB_API_KEY_v3` in the file `seeree-box/cmd/init.go`  
+
 The Command Line Tool has only one simple `command` to start using the funcitonality of the tool and it is;
 > `seeree-box init`
 
